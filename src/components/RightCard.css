@@ -1,0 +1,25 @@
+.right-card img {
+    width: 420px;
+    margin-top: 50px;
+}
+
+.right-card img {
+    width: 100%;
+    max-width: 420px;
+    margin-top: 50px;
+  }
+
+@media (max-width: 768px) {
+    .right-card img {
+      max-width: 300px;
+      margin-top: 30px;
+    }
+}
+  
+@media (max-width: 480px) {
+    .right-card img {
+      max-width: 90%;
+      margin: 20px auto;
+      display: block;
+    }
+}

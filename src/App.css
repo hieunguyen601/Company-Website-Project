@@ -1,0 +1,37 @@
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extraComponents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 120px;
+}
+
+@media (max-width: 768px) {
+    .main-section {
+      flex-direction: column; /* stack LeftCard & RightCard */
+      align-items: center;
+      text-align: center;
+    }
+    .extraComponents {
+      flex-direction: column;
+      margin-left: 0;
+      gap: 30px;
+      align-items: center;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 480px) {
+    .main-section {
+      padding: 20px;
+    }
+    .extraComponents {
+      padding: 20px;
+    }
+  }

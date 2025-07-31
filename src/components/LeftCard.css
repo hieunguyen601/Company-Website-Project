@@ -1,0 +1,75 @@
+.left-card {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+
+.learn-more-button {
+    padding: 10px 30px !important;
+    transition: 0.2s ease !important;
+}
+
+.learn-more-button:hover {
+    background-color: transparent !important;
+    color: black !important
+}
+
+.companies {
+    margin-top: 55px;
+}
+
+.companies img {
+    margin-right: 30px;
+    width: 80px;
+}
+
+.description {
+    width: 350px;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .title {
+      font-size: 3rem;
+      margin-left: 155px;
+    }
+    .description {
+      width: 60%;
+      margin-left: 110px;
+    }
+    .companies img {
+      width: 60px;
+      margin-left: 20px;
+    }
+
+    .companies {
+        margin-left: 80px;
+    }
+
+    .learn-more-button {
+        margin-left: 37%;
+    }
+}
+  
+@media (max-width: 480px) {
+    .title {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .companies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+}
