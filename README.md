@@ -11,57 +11,47 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-Got it! Your project is a **React + Vite** website using **Frontend Mentor** assets.
-Here’s a good `README.md` tailored for that:
+Here’s your improved **README.md** with **screenshot preview**, **badges**, and **GitHub Pages deployment steps** included:
 
 ---
 
-# Company Website Project
+# Company Website Project ![React](https://img.shields.io/badge/React-19-blue) ![Vite](https://img.shields.io/badge/Vite-Frontend-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-A modern, responsive company website built with **React** and **Vite**, using design assets provided by [Frontend Mentor](https://www.frontendmentor.io/).
-This project focuses on clean code structure, reusable components, and responsive UI.
-
----
-
-## Table of Contents
-
-* [Demo](#demo)
-* [Features](#features)
-* [Tech Stack](#tech-stack)
-* [Getting Started](#getting-started)
-* [Project Structure](#project-structure)
-* [Deployment](#deployment)
-* [Acknowledgements](#acknowledgements)
-* [License](#license)
+A modern, responsive company website built with **React** and **Vite**, using design assets from [Frontend Mentor](https://www.frontendmentor.io/).
+Focuses on clean structure, reusable components, and mobile-first design.
 
 ---
 
-## Demo
+## 🔗 Demo
 
-[Live Demo](https://hieunguyen601.github.io/Company-Website-Project/) *(update if deployed)*
+[Live Demo](https://hieunguyen601.github.io/Company-Website-Project/)
 
 ---
 
-## Features
+## 📸 Screenshots
+
+![Website Preview](./public/screenshot.png)
+---
+
+## ✨ Features
 
 * Responsive design for mobile, tablet, and desktop
 * Modular React components
-* Styled using CSS (or any CSS framework if added)
-* Fast builds and hot reload via **Vite**
+* Styled using CSS and assets from Frontend Mentor
+* Fast build & hot reload via Vite
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-* **React 19** (UI library)
-* **Vite** (bundler)
+* **React 19** – UI library
+* **Vite** – Development server & bundler
 * **JavaScript (ES6+)**
 * **CSS3**
-* Assets from **Frontend Mentor**
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone the repo
 
@@ -76,7 +66,7 @@ cd Company-Website-Project
 npm install
 ```
 
-### 3. Run development server
+### 3. Run locally
 
 ```bash
 npm run dev
@@ -86,7 +76,7 @@ Visit: `http://localhost:5173/`
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 Company-Website-Project/
@@ -103,30 +93,37 @@ Company-Website-Project/
 
 ---
 
-## Deployment
+## 📤 Deployment (GitHub Pages)
 
-### Deploy to GitHub Pages
+### 1. Add `homepage` to `package.json`
+
+```json
+"homepage": "https://hieunguyen601.github.io/Company-Website-Project"
+```
+
+### 2. Add deploy scripts
+
+```json
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+```
+
+### 3. Deploy
 
 ```bash
-npm run build
 npm run deploy
 ```
 
-*(Make sure `"homepage"` is set correctly in `package.json`.)*
+---
+
+## 🙌 Acknowledgements
+
+* [Frontend Mentor](https://www.frontendmentor.io/) for design inspiration
+* [React](https://react.dev/) & [Vite](https://vitejs.dev/) for development tools
 
 ---
 
-## Acknowledgements
+## 📄 License
 
-* [Frontend Mentor](https://www.frontendmentor.io/) for design inspiration and assets
-* [React](https://react.dev/) and [Vite](https://vitejs.dev/) for development tools
+This project is licensed under the [MIT License](LICENSE).
 
----
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Do you want me to also **add screenshot sections** (like a preview image) and **GitHub Pages deployment steps**? And should I **make it short and simple** or **full with badges + preview images** (like pro-level README)?
