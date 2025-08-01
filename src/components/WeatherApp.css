@@ -1,15 +1,19 @@
 
 .searchBox {
   margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .searchBox input {
   padding: 10px 20px;
-  width: 400px;
+  width: auto;
   outline: none;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   font-size: 18px;
+  flex: 1;
 }
 
 .searchBox button {
@@ -49,11 +53,6 @@
   margin-bottom: 10px;
   margin-top: 10px;
 }
-
-@media (max-width: 1380px) {
-  .searchBox {
-    width: 300px;
-  }
 
 @media (max-width: 768px) {
   .searchBox input {
