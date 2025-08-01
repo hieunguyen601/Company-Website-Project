@@ -2,6 +2,10 @@
   margin: 20px;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
+=======
+  gap: 8px;
+>>>>>>> 49dfeec2606fb1ef48d157bc22be4d4e29f7cf14
 }
 
 .searchBox input {
