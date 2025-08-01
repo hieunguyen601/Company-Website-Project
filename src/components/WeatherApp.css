@@ -1,15 +1,17 @@
-
 .searchBox {
   margin: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .searchBox input {
   padding: 10px 20px;
-  width: 400px;
+  width: auto;
   outline: none;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   font-size: 18px;
+  flex: 1;
 }
 
 .searchBox button {
