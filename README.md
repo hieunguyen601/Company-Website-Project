@@ -11,8 +11,6 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-Here’s your improved **README.md** with **screenshot preview**, **badges**, and **GitHub Pages deployment steps** included:
-
 ---
 
 # Company Website Project ![React](https://img.shields.io/badge/React-19-blue) ![Vite](https://img.shields.io/badge/Vite-Frontend-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -30,7 +28,7 @@ Focuses on clean structure, reusable components, and mobile-first design.
 
 ## 📸 Screenshots
 
-![Website Preview](./public/screenshot.png)
+![Website Preview](./public/websiteScreenshot.png)
 ---
 
 ## ✨ Features
