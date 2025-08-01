@@ -22,7 +22,7 @@ Focuses on clean structure, reusable components, and mobile-first design.
 
 ## 🔗 Demo
 
-[Live Demo](https://hieunguyen601.github.io/Company-Website-Project/)
+[Live Demo](https://hieunguyen601.github.io/company-website-project/)
 
 ---
 
@@ -77,7 +77,7 @@ Visit: `http://localhost:5173/`
 ## 📁 Project Structure
 
 ```
-Company-Website-Project/
+company-website-project/
 ├── public/            # Static assets
 ├── src/
 │   ├── components/    # Reusable components
@@ -96,7 +96,7 @@ Company-Website-Project/
 ### 1. Add `homepage` to `package.json`
 
 ```json
-"homepage": "https://hieunguyen601.github.io/Company-Website-Project"
+"homepage": "https://hieunguyen601.github.io/company-website-project"
 ```
 
 ### 2. Add deploy scripts
